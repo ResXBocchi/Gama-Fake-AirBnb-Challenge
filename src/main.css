@@ -1,19 +1,27 @@
 .card-body {
   height: 150px;
-  max-height: 150px;
+  max-width: 300px;
+  min-width:300px;
+  width:300px;
 }
 
 .property-type {
   color: #a52903;
   font-weight: bold;
+  max-height: 200px;
+  max-width: 200px;
 }
-
+.mb-4{
+  margin:30px !important;
+}
 .property-name {
   color: #484848;
   font-size: 16px;
   font-weight: bold;
   line-height: 22px;
   margin: 0;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .property-price {
@@ -23,8 +31,13 @@
   line-height: 18px;
   margin: 0;
   margin-top: 5px;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 img {
-  max-height: 200px;
+  max-width: 300px;
+  min-width:300px;
+  width:300px;
+  max-height: 150px;
 }
